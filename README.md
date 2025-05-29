@@ -3,6 +3,8 @@
 **Live Site:** [art.fahrnbach.one](https://art.fahrnbach.one)  
 **Repo:** [github.com/fahrnbach/art-app](https://github.com/fahrnbach/art-app)  
 
+ ![Screenshot](.portfolio-screenshot.png)
+
 ## Overview
 
 Art App is a visually-driven, desktop-first single-page application built with vanilla JavaScript, HTML, and CSS. Originally conceived as a full-stack social media platform for showcasing creative portfolios, it evolved into a month-long design journey focused entirely on precision, aesthetic harmony, and interaction design.
