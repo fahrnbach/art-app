@@ -110,3 +110,23 @@ Art App became a showcase not just of design capability but of the **discipline 
 - A dedication to custom design from first sketch to final pixel  
 
 This is what happens when development and design are allowed to fully collaborate—inside a single mind.
+
+# Portfolio Links:
+
+>[🎨 Live Demo (Art App)](https://art.fahrnbach.one)
+>
+>[🌐 Portfolio Site](https://fahrnbach.one)
+>
+>[🗃️ Angular Component Library](https://library.fahrnbach.one)
+>
+>[📖 Blog App w/ Python CMS](https://blog.fahrnbach.one)
+
+## 📬 Let’s Connect
+
+- 🌐 Portfolio: [fahrnbach.one](https://fahrnbach.one)
+- 💼 LinkedIn: *https://www.linkedin.com/in/fahrnbach*
+- 📧 Email: *jacob@fahrnbach.one*
+
+---
+
+> *“Code is craft. Design is empathy. My goal is to bridge the two.”*
