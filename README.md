@@ -3,7 +3,7 @@
 **Live Site:** [art.fahrnbach.one](https://art.fahrnbach.one)  
 **Repo:** [github.com/fahrnbach/art-app](https://github.com/fahrnbach/art-app)  
 
- ![Screenshot](.portfolio-screenshot.png)
+![Screenshot](./portfolio-screenshot.png)
 
 ## Overview
 
