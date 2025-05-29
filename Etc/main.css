@@ -1,0 +1,186 @@
+:root {
+    --ltext: #eee;
+    --mtext: #999;
+    --dtext: #777;
+    --lcard: #333;
+    --mcard: #2a2a2a;
+    --dcard: #252525;
+    --lcolo: #f94346;
+    --mcolo: #ec1f23;
+    --dcolo: #ff0000;
+
+    --bacgc: #202020;
+    --hlite: #ffff00;
+    --althl: #ffffb1;
+}
+
+html {
+    width: 100%;
+}
+
+#product--overview {
+    /* background: url("./Images/image1sat.png"); */
+    background-image: url("./Assets/image3A1000003046_Glitch.png");
+    background-size: contain;
+    /* background-position: 50px; */
+    height: 170vh;
+    width: 100vw;
+    padding: 10px;
+    margin: 0;  
+}
+
+
+/* .hue--rotate {
+    filter: hue-rotate(0deg);
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+    margin: 0;
+    position:fixed;
+    z-index: -1;
+} */
+
+
+.product--title {
+    color: var(--ltext);
+    font-size: 85px;
+    font-family: 'roboto', 'sans-serif';
+    margin: 0;
+    animation: 2s ease-out 1 slideInFromLeft;   
+}
+
+.hidd-overflow {    
+    top: 180px;
+    right: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.plan--badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: var(--ltext);
+    background-color: var(--lcard);
+    padding: 10px;
+}
+
+.product--subtitle {
+    color: var(--mtext);
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+
+.link--color {
+    color: var(--mcolo);
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.plan--cards {
+    background-color: var(--bacgc);
+    margin: 0;
+}
+
+.plan--card {
+    display: block;
+    background-color: var(--mcard);
+    /* box-shadow: 0px 0px 8px 5px white; */
+    margin-left: 1%;
+    width: 75%;
+    margin: 40px 0;
+    border-radius: 3px;
+    border: 1px solid var(--lcard);
+    padding: 0px 20px;
+    position: relative;
+}
+
+.plan--card:active,
+.plan--card:hover {
+    background-color: var(--lcard);
+}
+
+.plan--card__highlight {
+    margin-left: 20%;
+    background-color: var(--mcard);
+    /* box-shadow: 0px 0px 8px 7px var(--mtext); */
+}
+
+.plan--card__link {
+    padding: 20px;
+    text-decoration: none;
+    color: var(--ltext);
+    cursor: pointer;
+}
+
+.plan--card__info {
+    width: 80%;
+    margin: auto;
+}
+
+.button--container__getstarted {
+    position: absolute;
+    bottom: 10px;
+    right: 49%;
+    display: inline-block   ;
+}
+
+.plan .plan--highlighted {
+    height: 110%;
+}
+
+#key--features {
+    background-color: var(--bacgc);
+    /* background: url(./Image1.png);
+    background-size: cover; */
+}
+.list {
+    padding-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+.key--feature__item {
+    color: var(--ltext);
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.key--feature__image {
+    background-color: var(--mcard);
+    width: 128px;
+    height: 128px;
+    border: 1px solid var(--lcard);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key--feature__list {
+    margin: 0;
+}
+
+/* !!! HELPER CLASSES BELOW !!! */
+
+.right {
+    color: var(--ltext);
+    display: block;
+    text-align: right;
+}

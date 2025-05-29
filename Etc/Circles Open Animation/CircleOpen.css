@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.code-background-container {
+    position: absolute;
+    /* display: grid; */
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #202020;
+    display: flex;
+    overflow: clip;
+}
+
+.circle {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50%;
+    border: 10px solid white;
+    /* animation: rotation 120s linear infinite; */
+    /* border-style: double; */
+    opacity: 1;
+    /* box-shadow: inset 20px 20px #202020; */
+}
+
+.circle:hover {
+    animation: rotation 3s linear 1 forwards;
+}
+
+.circle1 {
+    position: absolute;
+    top: var(--xPos);
+    left: var(--yPos);
+    width: 100vw;
+    height: 100vw;
+    background-color: #ffffff33;
+    /* border-style: dashed; */
+}
+
+
+.circle2 {
+    width: 85%;
+    height: 85%;
+    background-color: #ffffff77;
+}
+
+.circle3 {
+    width: 60%;
+    height: 60%;
+    background-color: #ffffffAA;
+}
+
+.circle4 {
+    width: 35%;
+    height: 35%;
+    background-color: #ffffffCC;
+}
+
+.circle4 {
+    width: 25%;
+    height: 25%;
+    background-color: #ffffffFF;
+}
+
+@keyframes rotation {
+    from {
+        transform: scale(100%);
+    }
+
+    to {
+        transform: scale(300%);
+    }
+}

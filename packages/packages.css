@@ -1,0 +1,117 @@
+:root {
+    --ltext: #eee;
+    --mtext: #999;
+    --dtext: #777;
+    --lcard: #333;
+    --mcard: #2a2a2a;
+    --dcard: #252525;
+    --lcolo: #f94346;
+    --mcolo: #ec1f23;
+    --dcolo: #ff0000;
+
+    --bacgc: #202020;
+    --hlite: #ffff00;
+    --althl: #ffffb1;
+}
+
+/* body {
+    background-image: url('../Image2.png');
+} */
+
+.background {
+    background-image: url('../Images/Base6sat.png');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.section--title.title--helper {
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+    text-align: center;
+    background-color: #00000000;
+    color: var(--ltext);
+}
+
+.section--container {
+    height: 30vh;
+}
+
+.plan__ {
+    background-color: #2a2a2aee;
+    text-align: center;
+    padding: 32px;
+    margin: 8px 10px;
+    display: inline-block;
+    width: 37%;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: 1px solid var(--lcard);
+
+    /* box-shadow: 0px 0px 5px 5px var(--mcolo); */
+}
+
+.plan__:active,
+.plan__:hover {
+    background-color: var(--lcard);
+    cursor: pointer;
+}
+
+.plans__ {
+    /* background-color: var(--bacgc); */
+    text-align: center;
+    height: 70vh;
+}
+
+.plan__title {
+    font-size: 24px;
+    color: var(--ltext);
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.plan__price {
+    color: var(--ltext);
+    font-size: 50px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.price--helper {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0 10px;
+    color: var(--dtext);
+}
+
+.plan__info {
+    color: var(--dtext);
+    text-align: left;
+    margin-top: 0;
+}
+
+.plan__highlighted .plan__title {
+    color: var(--ltext);
+}
+
+.button--helper {
+    padding: 18px 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.plan--info__features {
+    margin: 0px;
+    padding: 0px;
+}
+
+.plan--info__features--info {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+    color: var(--dtext);
+}

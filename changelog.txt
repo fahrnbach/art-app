@@ -1,0 +1,42 @@
+Separated the Right-Nav Grid from the main Grid for Scrolling Animation
+SVG Progress Ring Guide: https://css-tricks.com/building-progress-ring-quickly/
+
+Throttle Vs Debounce Function: https://kettanaito.com/blog/debounce-vs-throttle
+
+!It’s worth remembering that the repeat() function sometimes produces buggy transitions, 
+which is why I set the width of each column individually (i.e. grid-template-columns: 1fr 1fr 1fr).
+https://css-tricks.com/animating-css-grid-how-to-examples/
+
+Commented out default "HOME" page in settings pending removal
+Overwrote Nav Template Columns to work on settings // 3-3-24 6:23PM
+
+Implemented and researched custom snippet for date and time // 03-03-2024 18:44 JF
+custom.code-snippets file located here:
+/Users/calypso/Library/Application Support/Code/User/snippets/custom.code-snippets
+
+Added Automator Quick Action to open files with VSCode // 03-03-2024 18:57 $.05
+Installed the VSCode Shell into terminal. Type 'code .' to open files with VSCode // 03-03-2024 18:58 $.05
+Organized and moved Assets to assets folder and etc files to Etc folder // 03-03-2024 19:01 $.05
+Renamed Readme to Changelog and implemented dating system // 03-03-2024 19:03 $.05 
+Renamed navigation.html to nav.html // 03-03-2024 19:04 $.05
+Changed date snippet name to 'stamp' ~@ 03-03-2024 19:23 $.05
+
+Added Comments section and cleaned up css with regions ~@ 03-04-2024 22:23 $.05 
+Attempted to add 'meteor mode' in js with setInterval. ~@ 03-04-2024 22:24 $.05
+Moving left nav all the way up and down in css. The accent bar can be reset if needed. I like the way it looks though! ~@ 03-04-2024 23:00 $.05
+
+Tested out hiding the logo when on left panel, but maybe will just hide it when mouse is active? ~@ 03-05-2024 00:17 $.05
+Major update to the set*settings panel & added logo scroll on mouse sleep ~@ 03-05-2024 02:06 $.05
+Tested and rolled back a marquee animation on the set*settings title. GN! ~@ 03-05-2024 03:00 $.05
+adjusted main Nav grid again to re-center the pager buttons for the set*settings ~@ 03-05-2024 22:25 $.05
+
+Found a workaround for 'commenting' already block commented css code. Add '--cc--' as a prefix to the class to indicate comment ~@ 03-06-2024 17:17 $.05
+CLEANUP TODO remove all 'js-posts' 'js-comments' etc from the children elements. Set display to inherit. Seems to work Probably speeds up JS code ~@ 03-06-2024 18:47 $.05
+
+Added a messages tab in the set*settings console, Tried a few animations, Tested a Spaces Title and Changed the layout of the console buttons ~@ 03-07-2024 00:57 $.05
+
+Tried a few design changes to the left set*settings page, also tested out a few bg images. Rolled back to previous version. ~@ 03-08-2024 01:11 $.05
+
+Working on creating the profiles view ~@ 03-15-2024 01:11 $.05
+Note: Found that when shrinking nav1 the background section will "grow" to center nav 1 if nav1 is set to align-self:end.
+In conjunction with scroll snap this Creates a "Scroll up to refresh" area ~@ 03-15-2024 01:13 $.05

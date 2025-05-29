@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.code-background-container {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: #202020;
+    display: flex;
+}
+
+.n1-content {
+    width: 1%;
+    height: 100%;
+}
+
+.n1-content:hover, .n1-content:active {
+    position: absolute;
+    z-index: 5;
+    top: 70px;
+    width: 100vh;
+    height: 100vh;
+}

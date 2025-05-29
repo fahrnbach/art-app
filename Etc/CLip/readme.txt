@@ -1,0 +1,1 @@
+Created to test the efffects of using the Clip property

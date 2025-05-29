@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.code-background-container {
+    position: absolute;
+    /* display: grid; */
+    align-items: center;
+    justify-items: left;
+    height: 100vh;
+    width: 100vw;
+    background-color: #202020;
+    display: flex;
+    overflow: clip;
+}
+
+.container1 {
+    position: absolute;
+    z-index: 1;
+    width: 50vw;
+    height: 100vh;
+    background-color: #fff;
+    background-color: #202020;
+}
+
+.container2 {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+
+
+.clip {
+    clip-path: ellipse(100% 110% at 130% 10%);
+    /* clip-path: polygon(50% 0, 100% 50%, 0 100%,0 0%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%,0 50%); */
+
+}
