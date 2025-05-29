@@ -1,4 +1,4 @@
-# 🎨 Art App
+## 🎨 Art App
 
 **Desktop-first gallery application for showcasing and interacting with digital art.**  
 Built using **vanilla JavaScript, HTML, and CSS**, this app demonstrates a component-style structure without relying on frameworks, designed with expandability and performance in mind.
